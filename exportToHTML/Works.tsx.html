@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Works.tsx</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #bcbec4;}
+.s4 { color: #d5b778;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Works.tsx</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">styled from </span><span class="s2">&quot;styled-components&quot;</span><span class="s3">;</span>
+<span class="s0">import </span><span class="s3">{</span><span class="s1">SectionTitle</span><span class="s3">} </span><span class="s1">from </span><span class="s2">&quot;../../../components/SectionTitle&quot;</span><span class="s3">;</span>
+<span class="s0">import </span><span class="s3">{</span><span class="s1">FlexWrapper</span><span class="s3">} </span><span class="s1">from </span><span class="s2">&quot;../../../components/FlexWrapper&quot;</span><span class="s3">;</span>
+<span class="s0">import </span><span class="s3">{</span><span class="s1">Work</span><span class="s3">} </span><span class="s1">from </span><span class="s2">&quot;./work/Work&quot;</span><span class="s3">;</span>
+<span class="s0">import </span><span class="s1">projectaImg from </span><span class="s2">&quot;../../../assets/images/project1.webp&quot;</span><span class="s3">;</span>
+<span class="s0">import </span><span class="s1">projectbImg from </span><span class="s2">&quot;../../../assets/images/project.webp&quot;</span><span class="s3">;</span>
+<span class="s0">import </span><span class="s1">projectcImg from </span><span class="s2">&quot;../../../assets/images/project3.webp&quot;</span><span class="s3">;</span>
+<span class="s0">import </span><span class="s1">projectdImg from </span><span class="s2">&quot;../../../assets/images/project4.webp&quot;</span><span class="s3">;</span>
+<span class="s0">import </span><span class="s1">projecteImg from </span><span class="s2">&quot;../../../assets/images/project5.webp&quot;</span><span class="s3">;</span>
+<span class="s0">import </span><span class="s1">projectfImg from </span><span class="s2">&quot;../../../assets/images/project6.webp&quot;</span><span class="s3">;</span>
+
+
+<span class="s0">export const </span><span class="s1">Works </span><span class="s3">= () =&gt; {</span>
+    <span class="s0">return </span><span class="s3">(</span>
+       <span class="s4">&lt;StyledWorks&gt;</span>
+           <span class="s4">&lt;SectionTitle&gt;</span><span class="s1">Projects</span><span class="s4">&lt;/SectionTitle&gt;</span>
+           <span class="s4">&lt;span&gt;</span><span class="s1">Things I’ve built so far</span><span class="s4">&lt;/span&gt;</span>
+           <span class="s4">&lt;FlexWrapper </span><span class="s3">justify</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'space-around'</span><span class="s3">}</span><span class="s4">&gt;</span>
+               <span class="s4">&lt;Work </span><span class="s3">title</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'Project Tile goes here'</span><span class="s3">}</span>
+                     <span class="s3">text</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'</span><span class="s3">}</span>
+                     <span class="s3">tech</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'Tech stack : HTML , JavaScript, SASS, React'</span><span class="s3">}</span>
+                     <span class="s3">src</span><span class="s2">=</span><span class="s3">{</span><span class="s1">projectaImg</span><span class="s3">}</span><span class="s4">/&gt;</span>
+               <span class="s4">&lt;Work </span><span class="s3">title</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'Project Tile goes here'</span><span class="s3">}</span>
+                     <span class="s3">text</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'</span><span class="s3">}</span>
+                     <span class="s3">tech</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'Tech stack : HTML , JavaScript, SASS, React'</span><span class="s3">}</span>
+                     <span class="s3">src</span><span class="s2">=</span><span class="s3">{</span><span class="s1">projectbImg</span><span class="s3">}</span><span class="s4">/&gt;</span>
+               <span class="s4">&lt;Work </span><span class="s3">title</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'Project Tile goes here'</span><span class="s3">}</span>
+                     <span class="s3">text</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'</span><span class="s3">}</span>
+                     <span class="s3">tech</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'Tech stack : HTML , JavaScript, SASS, React'</span><span class="s3">}</span>
+                     <span class="s3">src</span><span class="s2">=</span><span class="s3">{</span><span class="s1">projectcImg</span><span class="s3">}</span><span class="s4">/&gt;</span>
+               <span class="s4">&lt;Work </span><span class="s3">title</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'Project Tile goes here'</span><span class="s3">}</span>
+                     <span class="s3">text</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'</span><span class="s3">}</span>
+                     <span class="s3">tech</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'Tech stack : HTML , JavaScript, SASS, React'</span><span class="s3">}</span>
+                     <span class="s3">src</span><span class="s2">=</span><span class="s3">{</span><span class="s1">projectdImg</span><span class="s3">}</span><span class="s4">/&gt;</span>
+               <span class="s4">&lt;Work </span><span class="s3">title</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'Project Tile goes here'</span><span class="s3">}</span>
+                     <span class="s3">text</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'</span><span class="s3">}</span>
+                     <span class="s3">tech</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'Tech stack : HTML , JavaScript, SASS, React'</span><span class="s3">}</span>
+                     <span class="s3">src</span><span class="s2">=</span><span class="s3">{</span><span class="s1">projecteImg</span><span class="s3">}</span><span class="s4">/&gt;</span>
+               <span class="s4">&lt;Work </span><span class="s3">title</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'Project Tile goes here'</span><span class="s3">}</span>
+                     <span class="s3">text</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'</span><span class="s3">}</span>
+                     <span class="s3">tech</span><span class="s2">=</span><span class="s3">{</span><span class="s2">'Tech stack : HTML , JavaScript, SASS, React'</span><span class="s3">}</span>
+                     <span class="s3">src</span><span class="s2">=</span><span class="s3">{</span><span class="s1">projectfImg</span><span class="s3">}</span><span class="s4">/&gt;</span>
+           <span class="s4">&lt;/FlexWrapper&gt;</span>
+
+       <span class="s4">&lt;/StyledWorks&gt;</span>
+
+    <span class="s3">);</span>
+<span class="s3">};</span>
+
+<span class="s0">const </span><span class="s1">StyledWorks </span><span class="s3">= </span><span class="s1">styled</span><span class="s3">.</span><span class="s1">section </span><span class="s2">`</span>
+   <span class="s2">min-height: 100vh; 
+    background-color: darkgoldenrod; 
+ 
+`</span></pre>
+</body>
+</html>
