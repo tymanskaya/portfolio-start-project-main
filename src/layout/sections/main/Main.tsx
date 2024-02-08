@@ -5,7 +5,7 @@ import photo from '../../../assets/images/Screenshot_20240126_223819_Gallery.jpg
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Container} from "../../../components/Container";
 import {theme} from "../../../styles/Theme";
-import {Icon} from "../../../components/icon/Icon";
+
 
 
 
