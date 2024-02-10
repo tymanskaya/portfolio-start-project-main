@@ -1,5 +1,4 @@
-import {SectionTitle} from "../../../../components/SectionTitle";
-import {FlexWrapper} from "../../../../components/FlexWrapper";
+
 import {Icon} from "../../../../components/icon/Icon";
 import styled from "styled-components";
 

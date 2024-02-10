@@ -24,6 +24,3 @@ const StyledContactSocial = styled.a`
     
 `
 
-const Title = styled.h3`
-
-`

@@ -50,12 +50,11 @@ const Photo = styled.img `
     object-fit: cover;
     border-radius: 50%;
     z-index: 999;
-    }
 `
 
 const PhotoWrapper = styled.div`
-    position: relative;
-    z-index: 999;
+       position: relative;
+       z-index: 999;
     &::before {
         content: "";
         width: 369px;

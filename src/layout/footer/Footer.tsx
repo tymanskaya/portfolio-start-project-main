@@ -1,6 +1,5 @@
-import {SectionTitle} from "../../components/SectionTitle";
+
 import {FlexWrapper} from "../../components/FlexWrapper";
-import {ContactSocial} from "../sections/contacts/contactSocial/ContactSocial";
 import {MenuFooter} from "../../components/menu/MenuFooter";
 import styled from "styled-components";
 import {Container} from "../../components/Container";
@@ -12,7 +11,7 @@ export const Footer = () => {
             <Container>
                 <FlexWrapper justify="space-between">
             <MenuFooter/>
-                    <Slogan>Designed and built by <Gradient>Rupeka K</Gradient> with <Gradient>Love</Gradient> & <Gradient>Coffee</Gradient></Slogan>
+                    <Slogan>Designed and built by <Gradient>Rupeka KN</Gradient> with <Gradient>Love</Gradient> & <Gradient>Coffee</Gradient></Slogan>
                 </FlexWrapper>
             </Container>
         </StyledFooter>

@@ -1,8 +1,4 @@
-import {Container} from "../../../../components/Container";
-import {SectionTitle} from "../../../../components/SectionTitle";
-import {Title} from "../../../../components/Title";
-import {FlexWrapper} from "../../../../components/FlexWrapper";
-import {Skill} from "../../skills/skill/Skill";
+
 import {Icon} from "../../../../components/icon/Icon";
 import styled from "styled-components";
 import {theme} from "../../../../styles/Theme";

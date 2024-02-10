@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper";
-import {Icon} from "../../../components/icon/Icon";
-import {Component, ReactNode} from "react";
+
 import {SectionTitle} from "../../../components/SectionTitle";
 import {Skill} from "./skill/Skill";
 import {Container} from "../../../components/Container";

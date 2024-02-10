@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import {type} from "os";
-import {Icon} from "../../../../components/icon/Icon";
 import {theme} from "../../../../styles/Theme";
 import {FlexWrapper} from "../../../../components/FlexWrapper";
 import {LinkCode} from "../linkCode/LinkCode";
@@ -48,11 +46,7 @@ const Image = styled.img `
     object-fit: cover;
 
 `
-const Link = styled.a `
-    color: ${theme.colors.fontName};
-    text-decoration: 1px;
 
-`
 const Title = styled.h3 `
      font-family: Poppins, sans-serif;
      font-weight: 500;
@@ -74,7 +68,7 @@ const TechStack = styled.p `
     font-weight: 400;
     font-size: 16px;
     color: ${theme.colors.fontMain};
-    margin: 20px 0px;
+    margin: 20px 0;
 
 `
 const WorkWrapper = styled.div `

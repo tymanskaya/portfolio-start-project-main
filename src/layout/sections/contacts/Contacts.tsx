@@ -1,9 +1,7 @@
 import styled from "styled-components";
-import {SectionTitle} from "../../../components/SectionTitle";
-import {Icon} from "../../../components/icon/Icon";
+
 import {ContactSocial} from "./contactSocial/ContactSocial";
-import {FlexWrapper} from "../../../components/FlexWrapper";
-import {Container} from "../../../components/Container";
+
 
 
 export const Contacts = () => {
