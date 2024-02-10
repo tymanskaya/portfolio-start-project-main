@@ -12,7 +12,7 @@ export const Contact = () => (
         <Container>
             <FlexWrapper justify="space-between" align="center">
         {/* eslint-disable-next-line react/jsx-no-undef */}
-          <Logo iconId={'logofooter'} width={"97"} height={"59"} />
+          <Logo/>
           <ContactMenu>
         <Telephone href="tel:+375333357821">+375333357821</Telephone>
               <Email href="mailto:etymanskaya@bk.ru">etymanskaya@bk.ru</Email>

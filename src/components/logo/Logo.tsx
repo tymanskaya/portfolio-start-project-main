@@ -1,16 +1,14 @@
 import React from "react";
-import { Icon } from "../icon/Icon";
 import styled from "styled-components";
 
-type LogoPropsType = {
-    iconId: string,
-    width: string,
-    height: string
-}
-export const Logo = (props : LogoPropsType) => {
+
+export const Logo = () => {
     return (
             <LinkLogo href=''>
-                <Icon iconId={props.iconId} width={props.width} height={props.height} />
+                <LogoWrapper>
+                    <SmallTextL> 007 </SmallTextL>
+                    <SmallTextLN> rupekakn </SmallTextLN>
+                </LogoWrapper>
             </LinkLogo>
     );
 };
@@ -18,4 +16,37 @@ export const Logo = (props : LogoPropsType) => {
 const LinkLogo = styled.a`
     text-align: center;
     padding: 20px 0;
+`
+
+const SmallTextL = styled.span`
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+
+    background-image: linear-gradient(90deg, #13B0F5, #E70FAA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &::before {
+        content: "{";
+    }
+    &::after {
+        content: "}";
+    }
+`
+const LogoWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    
+`
+const SmallTextLN=styled.span `
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #2AA5A0;
+    background-image: linear-gradient(90deg, #13B0F5, #E70FAA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 `

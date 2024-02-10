@@ -19,7 +19,7 @@ export const Header = () => (
         {/* eslint-disable-next-line react/jsx-no-undef */}
         <Container>
             <FlexWrapper direction={"row"} justify={"space-between"} align={"center"}>
-                <Logo iconId={"logo"} width={"97"} height={"59"} />
+                <Logo/>
                 <HeaderMenu />
             </FlexWrapper>
         </Container>
@@ -36,6 +36,7 @@ const StyledHeader = styled.header `
     z-index: 9999;
     min-height: 50px;
 
-    
+`
+const Logot=styled.span `
 
 `

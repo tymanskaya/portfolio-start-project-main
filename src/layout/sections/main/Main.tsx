@@ -17,7 +17,7 @@ export const Main = () => {
             <div>
                 <SmallText>Hi 👋,</SmallText>
                 <SmallText>My name is</SmallText>
-                <Name> Rupeka Katsiaryna</Name>
+                <Name> Rupeka KN</Name>
                 <MainTitle>A web developer</MainTitle>
             </div>
                 <PhotoWrapper>
