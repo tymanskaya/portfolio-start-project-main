@@ -16,13 +16,13 @@ export const Logo = () => {
 const LinkLogo = styled.a`
     text-align: center;
     padding: 20px 0;
+
 `
 
 const SmallTextL = styled.span`
     font-family: Poppins, sans-serif;
     font-size: 30px;
     font-weight: 700;
-
     background-image: linear-gradient(90deg, #13B0F5, #E70FAA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

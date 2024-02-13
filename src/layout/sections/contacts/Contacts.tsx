@@ -1,28 +1,35 @@
 import styled from "styled-components";
 
 import {ContactSocial} from "./contactSocial/ContactSocial";
+import React from "react";
+import {theme} from "../../../styles/Theme";
 
 
 
 export const Contacts = () => {
     return (
         <StyledContacts>
-            <ContactSocial iconId={"github"} width={"30"} height={"30"}></ContactSocial>
-            <ContactSocial iconId={"instag"} width={"30"} height={"30"}></ContactSocial>
-            <ContactSocial iconId={"twitter"} width={"30"} height={"30"}></ContactSocial>
+            <Link href=""><ContactSocial iconId={"github"} width={"30"} height={"30"}/></Link>
+            <Link href=""><ContactSocial iconId={"instag"} width={"30"} height={"30"}/></Link>
+            <Link href=""><ContactSocial iconId={"twitter"} width={"30"} height={"30"}/></Link>
         </StyledContacts>
 
 
     );
 };
 
-const StyledContacts = styled.section `
-
-    background-color: darkslateblue;
+const StyledContacts = styled.div `
     display: flex;
     flex-direction: row;
-    min-width: 130px;
+    max-width: 130px;
     width: 100%;
     justify-content: space-between;
+    gap: 20px;
+    @media ${theme.media.tablet} {
+        gap: 40px;
+    }
  
+`
+const Link = styled.a `
+
 `

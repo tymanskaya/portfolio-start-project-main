@@ -9,7 +9,7 @@ export const HeaderMenu = () => {
             <ul>
                 <ListItem><Link href="">Home</Link></ListItem>
                 <ListItem><Link href="">About</Link></ListItem>
-                <ListItem><Link href="">Tech Stack</Link></ListItem>
+                <ListItem><Link href="">Technologies</Link></ListItem>
                 <ListItem><Link href="">Projects</Link></ListItem>
                 <ListItem><Link href="">Contact</Link></ListItem>
             </ul>
@@ -22,16 +22,21 @@ const StyledHeaderMenu = styled.nav `
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
     justify-content: space-between;
     ul {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
-        min-width: 520px;
+        max-width: 609px;
         width: 100%;
+        gap: 40px;
+        @media ${theme.media.tablet} {
+            display: none;
+        }
     }
+ 
 `
 const ListItem = styled.li`
         
