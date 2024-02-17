@@ -20,6 +20,7 @@ export const Skill = (props: SkillPropsType) => {
 };
 
     const SkillStyled = styled.div `
+        flex-grow: 1;
        width: 180px;
        text-align: center;
        padding: 20px 0;

@@ -46,6 +46,9 @@ const Text = styled.p `
     font-weight: 300;
     font-size: 18px;
     color: ${theme.colors.fontMain};
+    @media ${theme.media.mobile}{
+        margin: 0 0 20px;
+    }
 
 `
 

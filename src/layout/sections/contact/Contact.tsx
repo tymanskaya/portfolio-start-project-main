@@ -10,13 +10,12 @@ import {theme} from "../../../styles/Theme";
 export const Contact = () => (
     <StyledContact>
         <Container>
-            <FlexWrapper justify="space-between" align="center">
-        {/* eslint-disable-next-line react/jsx-no-undef */}
+            <FlexWrapper justify="space-between" align="center" wrap="wrap">
           <Logo/>
           <ContactMenu>
-        <Telephone href="tel:+375333357821">+375333357821</Telephone>
-              <Email href="mailto:etymanskaya@bk.ru">etymanskaya@bk.ru</Email>
-              <Contacts/>
+          <Telephone href="tel:+375333357821">+375333357821</Telephone>
+          <Email href="mailto:etymanskaya@bk.ru">etymanskaya@bk.ru</Email>
+           <Contacts/>
           </ContactMenu>
             </FlexWrapper>
         </Container>
@@ -47,4 +46,5 @@ const Email = styled.a`
 const ContactMenu = styled.div`
   display: flex;
     gap: 60px;
+    flex-wrap: wrap;
 `

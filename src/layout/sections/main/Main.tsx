@@ -49,6 +49,7 @@ const MainTitle = styled.h1 `
     ${font ({family: "'Poppins', sans-serif", weight: 700, Fmin: 36, Fmax: 58 })};
     line-height: 70px;
     letter-spacing: -1px;
+    white-space: nowrap;
     color: ${theme.colors.fontName};
 
 `
@@ -79,10 +80,6 @@ const PhotoWrapper = styled.div`
        position: relative;
        z-index: 999;
        margin-right: 20px;
-       @media ${theme.media.mobile}{
-       margin-bottom: 30px;
-       
-       }
     
        &::before {
         content: "";
@@ -124,7 +121,7 @@ const Photo = styled.img `
 //     top: 0px;
 //     left: 0px;
 // `
-
+//
 // const Square = styled.div`
 //     border-left: 1px solid;
 //     border-top: 1px solid;
@@ -133,8 +130,8 @@ const Photo = styled.img `
 //     height: 444px;
 //     border-image: linear-gradient(to right, rgba(255,255,255,0.1), 60%, rgba(255,255,255,0)) 1;
 //     position: absolute;
-//     top: 0px;
-//     left: 0px;
+//     top: -10px;
+//     right: -10px;
 //     transform: rotate(-165deg);
 //     @media ${theme.media.mobile}{
 //         width: 335px;
@@ -158,5 +155,5 @@ const Photo = styled.img `
 //     }
 //
 //     `
-
-
+//
+//

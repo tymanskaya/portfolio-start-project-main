@@ -21,19 +21,22 @@ const StyledHeaderMenu = styled.nav `
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 40px;
     justify-content: space-between;
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
     @media ${theme.media.tablet} {
         display: none;
     }
     ul {
         display: flex;
         justify-content: space-between;
-        flex-direction: row;
+        //flex-direction: row;
         align-items: center;
-        max-width: 609px;
+        max-width: 550px;
         width: 100%;
-        gap: 40px;
+        
+        
         @media ${theme.media.tablet} {
             display: none;
         }
@@ -41,6 +44,7 @@ const StyledHeaderMenu = styled.nav `
  
 `
 const ListItem = styled.li`
+    justify-content: space-between;
         
 `
 const Link = styled.a`

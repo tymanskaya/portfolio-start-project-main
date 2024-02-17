@@ -18,7 +18,7 @@ export const Works = () => {
            <Container>
            <SectionTitle>Projects</SectionTitle>
            <Title>Things I’ve built so far</Title>
-           <FlexWrapper wrap={'wrap'} justify={'space-between'}>
+           <FlexWrapper wrap={'wrap'} justify={'space-between'} >
                <Work title={'Project Tile goes here'}
                      text={'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'}
                      tech={'Tech stack : HTML , JavaScript, SASS, React'}
@@ -51,10 +51,14 @@ export const Works = () => {
 };
 
 const StyledWorks = styled.section `
-   min-height: 100vh;
+    ${FlexWrapper} {
+        gap: 30px;
+    }
+   //min-height: 100vh;
     background-color: darkgoldenrod;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    //display: flex;
+    //flex-direction: column;
+    //align-items: center;
+    
 
 `

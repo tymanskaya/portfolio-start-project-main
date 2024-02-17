@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd074772-a305-4545-8184-832a06fb2a63" name="Changes" comment="workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/layout/header/mobiliMenu/MobileMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SectionTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SectionTitle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/MenuFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/MenuFooter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/contact/Contact.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/work/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/work/Work.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Theme.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +89,7 @@
       <workItem from="1707247786413" duration="4346000" />
       <workItem from="1707287505471" duration="8000" />
       <workItem from="1707287533661" duration="254000" />
-      <workItem from="1707287928679" duration="64106000" />
+      <workItem from="1707287928679" duration="101875000" />
     </task>
     <task id="LOCAL-00001" summary="portfolio">
       <option name="closed" value="true" />
@@ -130,7 +139,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707599613962</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1707858765422</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707858765423</updated>
+    </task>
+    <task id="LOCAL-00008" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1708172636661</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708172636661</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +172,12 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/logo/Logo.tsx</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/layout/sections/main/Main.tsx</url>
+          <line>74</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

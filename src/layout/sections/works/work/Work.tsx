@@ -32,11 +32,15 @@ export const Work = (props: WorkPropsType) => {
 
 const StyledWork = styled.div `
      background-color: ${theme.colors.primaryWork};
-     max-width: 375px;
-     width: 100%;
-    margin: 20px 0;
+     
+     width: 330px;
+    flex-grow: 1;
+  
      border-radius: 20px;
      overflow: hidden;
+    @media ${theme.media.desktop}{
+        max-width: 375px;
+    }
     
 `
 

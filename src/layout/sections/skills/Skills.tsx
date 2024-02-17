@@ -5,6 +5,7 @@ import {SectionTitle} from "../../../components/SectionTitle";
 import {Skill} from "./skill/Skill";
 import {Container} from "../../../components/Container";
 import {Title} from "../../../components/Title";
+import {theme} from "../../../styles/Theme";
 
 
 
@@ -14,7 +15,7 @@ export const Skills = () => {
             <Container>
             <SectionTitle>My Tech Stack</SectionTitle>
             <Title>Technologies I’ve been working with recently</Title>
-              <FlexWrapper wrap={'wrap'} justify={'space-between'} direction={'row'} align={'center'}>
+              <FlexWrapper wrap={'wrap'} justify={'space-between'} align={'center'}>
                   <Skill iconId={"css"} width={'120'} height={'120'} />
                   <Skill iconId={'git'} width={'120'} height={'120'} />
                   <Skill iconId={'react'} width={'120'} height={'120'} />
@@ -39,6 +40,10 @@ const StyledSkills = styled.section `
     flex-direction: column;
     align-items: center;
     padding: 100px 0;
+    
+    @media ${theme.media.mobile} {
+        padding: 80px 0;
+    }
 
 `
 

@@ -25,7 +25,7 @@ const StyledContacts = styled.div `
     justify-content: space-between;
     gap: 20px;
     @media (max-width: 852px){
-        display: none;
+        //display: none;
     }
  
 `
