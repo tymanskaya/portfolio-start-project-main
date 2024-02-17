@@ -10,7 +10,7 @@ export const Footer = () => {
         <StyledFooter>
             <Container>
                 <FlexWrapper justify="space-between">
-            <MenuFooter/>
+                    <MenuFooter/>
                     <Slogan>Designed and built by <Gradient>Rupeka KN</Gradient> with <Gradient>Love</Gradient> & <Gradient>Coffee</Gradient></Slogan>
                 </FlexWrapper>
             </Container>

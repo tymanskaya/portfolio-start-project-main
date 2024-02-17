@@ -6,7 +6,7 @@ export const Logo = () => {
     return (
             <LinkLogo href=''>
                 <LogoWrapper>
-                    <SmallTextL> 007 </SmallTextL>
+                    <SmallTextL>007</SmallTextL>
                     <SmallTextLN> rupekakn </SmallTextLN>
                 </LogoWrapper>
             </LinkLogo>
@@ -38,6 +38,7 @@ const LogoWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: left;
+    flex-wrap: nowrap;
     
 `
 const SmallTextLN=styled.span `

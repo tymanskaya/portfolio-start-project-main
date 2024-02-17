@@ -13,7 +13,6 @@ export const HeaderMenu = () => {
                 <ListItem><Link href="">Projects</Link></ListItem>
                 <ListItem><Link href="">Contact</Link></ListItem>
             </ul>
-            <Contacts/>
         </StyledHeaderMenu>
     );
 };
@@ -24,6 +23,9 @@ const StyledHeaderMenu = styled.nav `
     align-items: center;
     gap: 40px;
     justify-content: space-between;
+    @media ${theme.media.tablet} {
+        display: none;
+    }
     ul {
         display: flex;
         justify-content: space-between;

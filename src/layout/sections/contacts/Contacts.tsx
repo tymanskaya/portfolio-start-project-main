@@ -21,12 +21,11 @@ export const Contacts = () => {
 const StyledContacts = styled.div `
     display: flex;
     flex-direction: row;
-    max-width: 130px;
-    width: 100%;
+    //width: 130px;
     justify-content: space-between;
     gap: 20px;
-    @media ${theme.media.tablet} {
-        gap: 40px;
+    @media (max-width: 852px){
+        display: none;
     }
  
 `

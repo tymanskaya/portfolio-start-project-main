@@ -9,4 +9,9 @@ export const Title = styled.h3 `
     text-align: center;
     margin-bottom: 100px;
     margin-top: 30px;
+    
+    @media ${theme.media.mobile} {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
 `

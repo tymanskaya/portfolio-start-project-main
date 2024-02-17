@@ -6,6 +6,7 @@ type FlexWrapperPropsType = {
     align?: string
     wrap?: string
 
+
 }
 
 export const FlexWrapper = styled.div<FlexWrapperPropsType>`

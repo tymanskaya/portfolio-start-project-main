@@ -7,6 +7,11 @@ export const SectionTitle = styled.h2 `
     font-weight: 700;
     color: ${theme.colors.fontMain};
     text-align: center;
+
+    @media ${theme.media.mobile} {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
     
     
 `
