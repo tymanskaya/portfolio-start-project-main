@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import {ContactSocial} from "./contactSocial/ContactSocial";
 import React from "react";
-import {theme} from "../../../styles/Theme";
+
 
 
 
@@ -21,11 +21,11 @@ export const Contacts = () => {
 const StyledContacts = styled.div `
     display: flex;
     flex-direction: row;
-    //width: 130px;
     justify-content: space-between;
     gap: 20px;
-    @media (max-width: 852px){
-        //display: none;
+    transition: transform .3s ease 0s;
+    @media (max-width: 850px){
+        justify-content: center;
     }
  
 `

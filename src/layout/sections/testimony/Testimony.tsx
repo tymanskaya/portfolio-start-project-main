@@ -6,7 +6,7 @@ import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Container} from "../../../components/Container";
 import {theme} from "../../../styles/Theme";
 
-export const Testimony = () => {
+export const Testimony: React.FC = () => {
     return (
            <StyledTestimony>
                <Container>

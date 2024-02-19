@@ -1,49 +1,75 @@
-import styled from "styled-components";
-import {FlexWrapper} from "../../../components/FlexWrapper";
 
+import {FlexWrapper} from "../../../components/FlexWrapper";
 import {SectionTitle} from "../../../components/SectionTitle";
 import {Skill} from "./skill/Skill";
 import {Container} from "../../../components/Container";
 import {Title} from "../../../components/Title";
-import {theme} from "../../../styles/Theme";
+import {S} from "./Skill_Style"
 
 
 
-export const Skills = () => {
+const skillData = [
+    {
+        iconId: "css"
+    },
+    {
+        iconId: "react"
+    },
+    {
+        iconId: "vscode"
+
+    },
+    {
+        iconId: "js"
+
+    },
+    {
+        iconId: "html"
+
+    },
+    {
+        iconId: "git"
+
+    },
+    {
+        iconId: "phone"
+
+    },
+    {
+        iconId: "bootstrap"
+
+    },
+    {
+        iconId: "tailwind"
+
+    },
+    {
+        iconId: "sass"
+
+    },
+    {
+        iconId: "icongit"
+    },
+    {
+        iconId: "greensock"
+    }
+
+]
+export const Skills: React.FC = () => {
     return (
-        <StyledSkills>
+        <S.Skills>
             <Container>
             <SectionTitle>My Tech Stack</SectionTitle>
             <Title>Technologies I’ve been working with recently</Title>
               <FlexWrapper wrap={'wrap'} justify={'space-between'} align={'center'}>
-                  <Skill iconId={"css"} width={'120'} height={'120'} />
-                  <Skill iconId={'git'} width={'120'} height={'120'} />
-                  <Skill iconId={'react'} width={'120'} height={'120'} />
-                  <Skill iconId={'vscode'} width={'120'} height={'120'} />
-                  <Skill iconId={'js'} width={'120'} height={'120'} />
-                  <Skill iconId={'html'} width={'120'} height={'120'} />
-                  <Skill iconId={'greensock'} width={'120'} height={'120'} />
-                  <Skill iconId={'icongit'} width={'120'} height={'120'} />
-                  <Skill iconId={'sass'} width={'120'} height={'120'} />
-                  <Skill iconId={'tailwind'} width={'120'} height={'120'} />
-                  <Skill iconId={'bootstrap'} width={'120'} height={'120'} />
-                  <Skill iconId={'phone'} width={'120'} height={'120'} />
+                  {skillData.map((s, index) => {
+                      return <Skill iconId={s.iconId} key={index}/>
+                  })}
               </FlexWrapper>
             </Container>
-        </StyledSkills>
+        </S.Skills>
     );
 };
 
-const StyledSkills = styled.section `
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 0;
-    
-    @media ${theme.media.mobile} {
-        padding: 80px 0;
-    }
-
-`
 

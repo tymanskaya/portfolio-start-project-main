@@ -1,27 +1,18 @@
 
 import {Icon} from "../../../../components/icon/Icon";
-import styled from "styled-components";
+import {S} from "../Skill_Style"
 
 type SkillPropsType = {
     iconId: string
-    width: string
-    height: string
-
-
 }
-export const Skill = (props: SkillPropsType) => {
+export const Skill: React.FC <SkillPropsType> = (props: SkillPropsType) => {
     return (
 
-                <SkillStyled>
-                    <Icon iconId={props.iconId} width={props.width} height={props.height} />
-                </SkillStyled>
+                <S.Skill>
+                    <Icon iconId={props.iconId} width={'120'} height={'120'}/>
+                </S.Skill>
 
     );
 };
 
-    const SkillStyled = styled.div `
-        flex-grow: 1;
-       width: 180px;
-       text-align: center;
-       padding: 20px 0;
-    `
+

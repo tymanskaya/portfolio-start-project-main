@@ -1,36 +1,49 @@
-import React from "react";
-import styled, {css} from "styled-components";
 import {theme} from "../../../styles/Theme";
+import styled, {css} from "styled-components";
 
-export const MobileMenu = () => {
-    return (
-        <StyledMobileMenu>
-            <BurgerButton isOpen={false}>
-              <span></span>
-            </BurgerButton>
-            <MobileMenuWrapper isOpen={false}>
-            <ul>
-                <ListItem><Link href="">Home</Link></ListItem>
-                <ListItem><Link href="">About</Link></ListItem>
-                <ListItem><Link href="">Technologies</Link></ListItem>
-                <ListItem><Link href="">Projects</Link></ListItem>
-                <ListItem><Link href="">Contact</Link></ListItem>
-            </ul>
-            </MobileMenuWrapper>
+//Menu
 
-        </StyledMobileMenu>
-    );
-};
-
-const StyledMobileMenu = styled.nav `
-    display: none;
-    @media ${theme.media.tablet} {
-        display: block;
+const Nav = styled.ul`
+    display: flex;
+    align-items: center;
+    -webkit-column-gap: 45px;
+    column-gap: 45px;
+    flex-wrap: nowrap;
+    row-gap: 20px;
+`
+const ListItem = styled.li`
+    justify-content: space-between;
+    list-style: none;
+    transition: transform 0.3s ease 0s;
+    &:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        color: #fff;
     }
+        
+`
+const Link = styled.a`
+        font-family: DM Sans, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: ${theme.colors.fontSecondary};
+    transition: color 0.3s ease 0s;
+     &:hover{
+        color: #fff;
+    }
+    @media (max-width: 850px) {
+        font-size: 28px;
+    }
+`
+
+//MobileMenu
+
+const MobileMenu = styled.nav `
+    
 `
 const MobileMenuWrapper = styled.div<{isOpen:boolean}>`
     position: fixed;
-    background-color: rgba(54, 54, 54, 0.9);
+    background-color: rgba(54, 54, 54);
     top: 0;
     left: 0;
     bottom: 0;
@@ -38,10 +51,13 @@ const MobileMenuWrapper = styled.div<{isOpen:boolean}>`
     z-index: 99999;
     display: none;
     
+    
     ${props => props.isOpen && css<{isOpen:boolean}> `
       display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 40px;
         
     `}
     ul {
@@ -106,12 +122,26 @@ const BurgerButton = styled.button<{isOpen:boolean}>`
         }
     }
 `
-const ListItem = styled.li`
-        
+
+//DesktopMenu
+
+const DesktopMenu = styled.nav `
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 `
-const Link = styled.a`
-        font-family: DM Sans, sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: ${theme.colors.fontSecondary};
-`
+
+
+export const S = {
+    Nav,
+    ListItem,
+    Link,
+    BurgerButton,
+    MobileMenuWrapper,
+    MobileMenu,
+    DesktopMenu
+
+
+}
