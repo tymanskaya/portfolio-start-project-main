@@ -8,7 +8,7 @@ import {theme} from "../../../styles/Theme";
 
 export const Testimony: React.FC = () => {
     return (
-           <StyledTestimony>
+           <StyledTestimony id={'testimony'}>
                <Container>
                <SectionTitle>Testimony</SectionTitle>
                <FlexWrapper direction={'column'} align={'center'}>
@@ -22,8 +22,5 @@ export const Testimony: React.FC = () => {
 };
 
 const StyledTestimony = styled.section `
-    padding: 100px 0;
-    @media ${theme.media.mobile}{
-        padding: 80px 0;
-    }
+ 
 `

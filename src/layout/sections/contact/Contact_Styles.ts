@@ -37,6 +37,13 @@ const Telephone = styled.a`
     font-weight: 400;
     color: ${theme.colors.fontSecondary};
     text-align: center;
+    transition: ${theme.animations.transition};
+    &:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        color: #fff;
+        text-decoration: underline;
+    }
 `
 const Email = styled.a`
     font-family: DM Sans, sans-serif;
@@ -44,6 +51,13 @@ const Email = styled.a`
     font-weight: 400;
     color: ${theme.colors.fontSecondary};
     text-align: center;
+    transition: ${theme.animations.transition};
+    &:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        color: #fff;
+        text-decoration: underline;
+    }
 `
 export const S = {
     Contact,

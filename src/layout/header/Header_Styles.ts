@@ -5,7 +5,7 @@ import {FlexWrapper} from "../../components/FlexWrapper";
 const Header= styled.header`
     padding: 20px 0 0 ;
     position: fixed;
-    opacity: 1;
+    opacity: 0.9;
     top: 0;
     left: 0;
     right: 0;

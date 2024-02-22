@@ -1,5 +1,6 @@
 import {theme} from "../../../styles/Theme";
 import styled, {css} from "styled-components";
+import {Link} from "react-scroll";
 
 //Menu
 
@@ -14,23 +15,34 @@ const Nav = styled.ul`
 const ListItem = styled.li`
     justify-content: space-between;
     list-style: none;
-    transition: transform 0.3s ease 0s;
-    &:hover{
-        -webkit-transform: scale(1.1);
+    transition: ${theme.animations.transition};
+
+    &:hover {
+        transition: ${theme.animations.transition};
         transform: scale(1.1);
-        color: #fff;
+        color: #ffffff;
     }
-        
+
+
+
+
 `
-const Link = styled.a`
-        font-family: DM Sans, sans-serif;
+const NavLink = styled(Link)`
+    font-family: DM Sans, sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: ${theme.colors.fontSecondary};
-    transition: color 0.3s ease 0s;
-     &:hover{
-        color: #fff;
+    cursor: pointer;
+    transition: ${theme.animations.transition};
+
+    &:hover, &.active {
+        transition: ${theme.animations.transition};
+        transform: scale(1.1);
+        color: #ffffff;
     }
+    
+    
+
     @media (max-width: 850px) {
         font-size: 28px;
     }
@@ -137,7 +149,7 @@ const DesktopMenu = styled.nav `
 export const S = {
     Nav,
     ListItem,
-    Link,
+    NavLink,
     BurgerButton,
     MobileMenuWrapper,
     MobileMenu,

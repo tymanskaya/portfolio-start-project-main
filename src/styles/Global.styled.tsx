@@ -40,5 +40,12 @@ export const GlobalStyle = createGlobalStyle`
         background-color: ${theme.colors.primaryBg}!important;
     }
     
+    section {
+        padding-top: 200px;
+        @media ${theme.media.tablet}{
+            padding-top: 100px;
+        }
+    }
+    
 
 `

@@ -7,7 +7,7 @@ export const MobileMenu: React.FC = () => {
     return (
         <S.MobileMenu>
             <S.BurgerButton isOpen={false}>
-              <span></span>
+                <span></span>
             </S.BurgerButton>
             <S.MobileMenuWrapper isOpen={false}>
                 <Menu/>
@@ -17,4 +17,3 @@ export const MobileMenu: React.FC = () => {
         </S.MobileMenu>
     );
 };
-

@@ -15,7 +15,7 @@ type WorkPropsType = {
 export const Work: React.FC<WorkPropsType> = (props: WorkPropsType) => {
     return (
         <S.Work>
-          <S.Image src={props.src}/>
+          <S.Image src={props.src} alt='photo'/>
             <S.WorkWrapper>
           <S.Title>{props.title}</S.Title>
             <S.Text>{props.text}</S.Text>

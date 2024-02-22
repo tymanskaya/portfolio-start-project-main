@@ -13,13 +13,7 @@ const Work = styled.div `
     flex-grow: 1;
      border-radius: 20px;
      overflow: hidden;
-      transition: box-shadow,transform .9s ease 0s,-webkit-transform .9s ease 0s;
-    &:hover {
-        box-shadow: 2px 2px 100px 0 rgba(0,0,0,.2);
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-    }
+
     @media ${theme.media.desktop}{
         max-width: 375px;
     }
@@ -37,7 +31,6 @@ const Image = styled.img `
         height: 100%;
         background-color: rgba(16, 16, 16, 0.5);
         border-radius: 19px 19px 0 0;
-        transition: background-color 0.9s ease 0s;
     }
     &:hover:after {
         background-color: transparent;
@@ -80,13 +73,21 @@ const LinkCode = styled.div`
     flex-direction: row;
     gap: 10px;
     align-items: center;
+
 `
 const Link = styled.a`
     font-family: Poppins, sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: ${theme.colors.fontName};
-    text-decoration: underline;
+    transition: ${theme.animations.transition};
+    
+    &:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        color: #fff;
+        text-decoration: underline;
+    }
 
 `
 

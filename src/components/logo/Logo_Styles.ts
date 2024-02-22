@@ -4,6 +4,7 @@ import styled from "styled-components";
 const LinkLogo = styled.a`
     text-align: center;
     padding: 20px 0;
+    cursor: pointer;
 
 `
 
