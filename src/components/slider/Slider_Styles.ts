@@ -9,6 +9,13 @@ const Slider = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
+    &:hover{
+        cursor: grab;
+    }
+    &:active{
+        cursor: grabbing;
+    }
+  
 
 `
 

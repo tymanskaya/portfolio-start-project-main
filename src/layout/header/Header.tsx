@@ -4,7 +4,7 @@ import { Container } from "../../components/Container";
 import {FlexWrapper} from "../../components/FlexWrapper";
 import {DesktopMenu} from "./headerMenu/desktopMenu/DesktopMenu";
 import {MobileMenu} from "./headerMenu/mobiliMenu/MobileMenu";
-import {S} from "../header/Header_Styles"
+import {S} from "./Header_Styles"
 
 
 
@@ -35,7 +35,4 @@ export const Header: React.FC = () => {
         </S.Header>
     );
 }
-
-
-
 

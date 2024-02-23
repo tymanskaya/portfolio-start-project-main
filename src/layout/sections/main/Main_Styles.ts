@@ -34,6 +34,9 @@ const MainTitle = styled.h1 `
     p {
         display: none;
     }
+  
+    }
+
 
 `
 const Name = styled.h2 `
@@ -90,6 +93,7 @@ const PhotoWrapper = styled.div`
         @media ${theme.media.mobile}{
             width: 260px;
             height: 260px;
+            animation: none;
         }
     }
 

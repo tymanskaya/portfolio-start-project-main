@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import {theme} from "../../styles/Theme";
 import {FlexWrapper} from "../../components/FlexWrapper";
 
 const Header= styled.header`
@@ -14,9 +13,7 @@ const Header= styled.header`
     ${FlexWrapper}{
         gap: 20px;
     }
-    @media (max-width: 850px){
-        //opacity: 1;
-    }
+
 `
 const MenuWrappers = styled.div`
     display: flex;
