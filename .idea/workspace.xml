@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd074772-a305-4545-8184-832a06fb2a63" name="Changes" comment="workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/components/particle/Particle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider/Slider_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/Slider_Styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/Header_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header_Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/icons-sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons-sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo/Logo_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/Logo_Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/footer/Footer_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer/Footer_Styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/mobiliMenu/MobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/mobiliMenu/MobileMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/contact/Contact_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/contact/Contact_Styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main_Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/Skill_Style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/Skill_Style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/Works_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/Works_Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Global.styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Global.styled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,22 +56,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ekaterinapupeka/Documents/portfolio-start-project-main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/ekaterinapupeka/Documents/portfolio-start-project-main/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ekaterinapupeka/Documents/portfolio-start-project-main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ekaterinapupeka/Documents/portfolio-start-project-main/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/layout/footer" />
@@ -92,7 +100,9 @@
       <workItem from="1708546766879" duration="147000" />
       <workItem from="1708547090042" duration="1524000" />
       <workItem from="1708549028088" duration="536000" />
-      <workItem from="1708553946476" duration="15238000" />
+      <workItem from="1708553946476" duration="20194000" />
+      <workItem from="1708807928957" duration="5883000" />
+      <workItem from="1709034016055" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="portfolio">
       <option name="closed" value="true" />
@@ -190,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708717057970</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1708720729609</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708720729609</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -61,25 +61,31 @@ const MobileMenuWrapper = styled.div<{isOpen:boolean}>`
     bottom: 0;
     right: 0;
     z-index: 99999;
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    transform: translateY(-100%);
+    transition: 1s ease-in-out;
     
     
-    ${props => props.isOpen && css<{isOpen:boolean}> `
-      display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-        
-    `}
     ul {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap: 40px;
+        gap: 10px;
+        transition: 1s ease-in-out;
 
     }
+    ${props => props.isOpen && css<{isOpen:boolean}> `
+        transform: translateY(0);
+      & ul {
+          gap: 50px;
+      }
+        
+    `}
 `
 const BurgerButton = styled.button<{isOpen:boolean}>`
         position: fixed;

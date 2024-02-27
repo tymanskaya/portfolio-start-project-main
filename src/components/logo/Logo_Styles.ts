@@ -14,7 +14,7 @@ const SmallTextL = styled.span`
     background-image: linear-gradient(90deg, #13B0F5, #E70FAA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    z-index: 999999999999;
+
 
     &::before {
         content: "{";
@@ -37,7 +37,7 @@ const SmallTextLN=styled.span `
     background-image: linear-gradient(90deg, #13B0F5, #E70FAA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    z-index: 999999999999;
+
 `
 
 export const S = {

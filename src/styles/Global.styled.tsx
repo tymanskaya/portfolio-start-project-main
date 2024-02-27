@@ -46,6 +46,8 @@ export const GlobalStyle = createGlobalStyle`
             padding-top: 100px;
         }
     }
+        
+
     
 
 `

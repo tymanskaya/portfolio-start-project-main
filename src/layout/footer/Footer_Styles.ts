@@ -10,6 +10,7 @@ const Footer = styled.footer `
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     
     ${FlexWrapper} {
         gap: 20px;

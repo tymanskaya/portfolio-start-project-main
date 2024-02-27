@@ -3,6 +3,7 @@ import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper";
 
 const Contact = styled.section `
+    position: relative;
     padding-bottom: 30px;
     ${FlexWrapper} {
         border-bottom: 2px solid #42446E;

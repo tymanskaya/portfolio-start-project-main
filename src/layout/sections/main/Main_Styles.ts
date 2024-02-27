@@ -7,7 +7,11 @@ const Main = styled.section `
     display: flex;
     min-height: 100vh;
     margin: 0 auto;
+    @media ${theme.media.tablet}{
+        padding-top: 200px;
+    }
     @media ${theme.media.mobile} {
+        padding-top: 100px;
         ${FlexWrapper} {
             align-items: flex-start;
         }
